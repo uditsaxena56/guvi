@@ -7,6 +7,7 @@ def reverse(s):
             print(s[i],end="")
 
 try:
+    n=int(input())
     s=input()
     reverse(s)
 except ValueError:
